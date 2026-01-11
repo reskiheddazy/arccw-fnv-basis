@@ -177,3 +177,15 @@ SWEP.Animations = {
     },
 }
 
+SWEP.Attachments = {
+    {
+        PrintName = "Optic", -- print name
+        DefaultAttName = "None",
+        Slot = {"bigoptic_compatible"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        Offset = {
+            vpos = Vector(0.05, -2.5, 1.9),
+            vang = Angle(90, 0, -90),
+        },
+    },
+}
