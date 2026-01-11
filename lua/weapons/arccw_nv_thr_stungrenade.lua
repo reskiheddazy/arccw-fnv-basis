@@ -29,12 +29,10 @@ SWEP.CookAltFire = true
 -- ========================================
 SWEP.Throwing = true
 SWEP.NotForNPCs = true
-SWEP.PullPinTime = 0.75
+SWEP.PullPinTime = 0.85
 
-SWEP.MuzzleVelocity = 1000
+SWEP.MuzzleVelocity = 1500
 SWEP.ShootEntity = "arccw_fnv_stun" -- entity to fire
-
-SWEP.FuseTime = 1.5
 
 -- ========================================
 -- VIEWMODEL / WORLDMODEL
@@ -66,7 +64,7 @@ SWEP.Animations = {
         SoundTable = {
             {s = "^fnv/throwables/pin_start.wav", t = 0.1},
             {s = "^fnv/throwables/pin_end.wav", t = 0.25},
-        }, 
+        },
     },
     ["throw"] = {
         Source = "throw_overhand",
