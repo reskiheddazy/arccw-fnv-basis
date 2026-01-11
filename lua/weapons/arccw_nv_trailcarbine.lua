@@ -1,16 +1,22 @@
 AddCSLuaFile()
 
+-- ========================================
+-- BASE SETTINGS
+-- ========================================
 SWEP.Base = "arccw_base"
 SWEP.NeverPhysBullet = true
-SWEP.Spawnable = true -- this obviously has to be set to true
+SWEP.Spawnable = true
 SWEP.Category = "ArcCW - Fallout"
 SWEP.PrintName = "Trail Rifle"
-SWEP.ViewModelFOV = 90
 SWEP.Slot = 3
-SWEP.ViewModel = "models/fnvsweps/dm/fnv_trailcarbine.mdl" -- I mean, you probably have to edit these too
-SWEP.WorldModel = "models/weapons/w_knife_ct.mdl"
 
-SWEP.MirrorVMWM = true -- Copy the viewmodel, along with all its attachments, to the worldmodel. Super convenient!
+-- ========================================
+-- VIEWMODEL / WORLDMODEL
+-- ========================================
+SWEP.ViewModel = "models/fnvsweps/dm/fnv_trailcarbine.mdl"
+SWEP.ViewModelFOV = 90
+SWEP.WorldModel = "models/weapons/w_knife_ct.mdl"
+SWEP.MirrorVMWM = true
 
 SWEP.WorldModelOffset = {
     pos = Vector(0, 0, 0),
@@ -21,21 +27,25 @@ SWEP.WorldModelOffset = {
 
 SWEP.DefaultBodygroups = "00000000"
 
-
-
-
+-- ========================================
+-- DAMAGE / BALLISTICS
+-- ========================================
 SWEP.Damage = 48
-SWEP.DamageMin = 30 -- damage done at maximum range
-SWEP.Range = 120 -- in METRES
+SWEP.DamageMin = 30
+SWEP.Range = 120
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 
+-- ========================================
+-- MAGAZINE / AMMO
+-- ========================================
+SWEP.ChamberSize = 1
+SWEP.Primary.ClipSize = 8
+SWEP.Primary.Ammo = "ar2"
 
-SWEP.ChamberSize = 1 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 8 -- DefaultClip is automatically set.
-SWEP.Primary.Ammo = "ar2" -- what ammo type the gun uses
-
-
+-- ========================================
+-- RECOIL
+-- ========================================
 SWEP.Recoil = 1
 SWEP.RecoilSide = 1
 SWEP.RecoilRise = 1.8
@@ -43,10 +53,12 @@ SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 1.8
 SWEP.RecoilPunch = 2
 SWEP.RecoilPunchBackMax = 1
-SWEP.RecoilVMShake = 2 -- random viewmodel offset when shooty
+SWEP.RecoilVMShake = 2
 
-
-SWEP.Delay = 60 / 650 -- 60 / RPM.
+-- ========================================
+-- FIRERATE / FIREMODES
+-- ========================================
+SWEP.Delay = 60 / 650
 
 SWEP.Firemodes = {
     {
@@ -58,62 +70,71 @@ SWEP.Firemodes = {
     },
 }
 
+-- ========================================
+-- ACCURACY / SPREAD
+-- ========================================
+SWEP.AccuracyMOA = 15
+SWEP.HipDispersion = 500
+SWEP.MoveDispersion = 150
+SWEP.SightsDispersion = 0
+SWEP.JumpDispersion = 300
 
-SWEP.AccuracyMOA = 15 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 500 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 150 -- inaccuracy added by moving. Applies in sights as well! Walking speed is considered as "maximum".
-SWEP.SightsDispersion = 0 -- dispersion that remains even in sights
-SWEP.JumpDispersion = 300 -- dispersion penalty when in the air
-
-
-
+-- ========================================
+-- SOUNDS
+-- ========================================
 SWEP.ShootSound = "fnv/trailercarbine/fire.wav"
 SWEP.ShootSoundSilenced = nil
 
-
+-- ========================================
+-- EFFECTS
+-- ========================================
 SWEP.MuzzleEffect = "muzzleflash_m14"
-
+SWEP.MuzzleEffectAttachment = 1
 
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
 SWEP.ShellPitch = 0.85
 SWEP.ShellScale = 1.25
+SWEP.CaseEffectAttachment = 2
 
-
-
-SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
-SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
-
-
+-- ========================================
+-- SPEED MULTIPLIERS
+-- ========================================
 SWEP.SpeedMult = 0.9
 SWEP.SightedSpeedMult = 0.88
 SWEP.ShootSpeedMult = 1
 
-
-
+-- ========================================
+-- IRON SIGHTS
+-- ========================================
 SWEP.IronSightStruct = {
     Pos = Vector(-2.56, 0, 1.411),
     Ang = Angle(0, 0, 0),
-    Midpoint = { -- Where the gun should be at the middle of it's irons
+    Midpoint = {
         Pos = Vector(0, 15, -4),
         Ang = Angle(0, 0, -45),
     },
 }
 
-
-
+-- ========================================
+-- HOLDTYPES
+-- ========================================
 SWEP.HoldtypeHolstered = "passive"
 SWEP.HoldtypeActive = "ar2"
 SWEP.HoldtypeSights = "rpg"
 
-
-
 SWEP.ActivePos = Vector(0, 0, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.ManualAction = true -- pump/bolt action
-SWEP.NoLastCycle = true -- do not cycle on last shot
-SWEP.ShotgunReload = true -- reloads like shotgun instead of magazines
+-- ========================================
+-- MANUAL ACTION
+-- ========================================
+SWEP.ManualAction = true
+SWEP.NoLastCycle = true
+SWEP.ShotgunReload = true
 
+-- ========================================
+-- ANIMATIONS
+-- ========================================
 SWEP.Animations = {
     ["idle"] = {
         Source = "idle",
@@ -132,7 +153,6 @@ SWEP.Animations = {
     },
     ["fire_iron_empty"] = {
         Source = "fire",
-
     },
     ["cycle"] = {
         Source = "cycle",
@@ -175,6 +195,4 @@ SWEP.Animations = {
             {s = "fnv/trailercarbine/reload_lever_up.wav", t = 0.49},
         }
     },
-    
 }
-

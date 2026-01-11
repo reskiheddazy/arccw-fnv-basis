@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(dir /S /B \"c:\\\\Program Files \\(x86\\)\\\\Steam\\\\steamapps\\\\common\\\\GarrysMod\\\\garrysmod\\\\addons\\\\arccw-fnv-basis\\\\lua\")",
+      "Bash(find:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}
