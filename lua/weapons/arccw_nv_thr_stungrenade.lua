@@ -31,7 +31,7 @@ SWEP.Throwing = true
 SWEP.NotForNPCs = true
 SWEP.PullPinTime = 0.75
 
-SWEP.MuzzleVelocity = 1100
+SWEP.MuzzleVelocity = 1000
 SWEP.ShootEntity = "arccw_fnv_stun" -- entity to fire
 
 SWEP.FuseTime = 1.5
