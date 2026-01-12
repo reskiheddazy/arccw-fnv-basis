@@ -32,6 +32,7 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 SWEP.Damage = 26
 SWEP.DamageMin = 18
+SWEP.RangeMin = 60 -- Damage falloff begins here.
 SWEP.Range = 90
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
@@ -47,13 +48,10 @@ SWEP.Primary.Ammo = "smg1"
 -- RECOIL
 -- ========================================
 SWEP.Recoil = 0.2
-SWEP.RecoilSide = 1
+SWEP.RecoilSide = 0.3
 SWEP.RecoilRise = 1
 SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 1.25
-SWEP.RecoilPunch = 1.5
-SWEP.RecoilPunchBackMax = 1
-SWEP.RecoilVMShake = 1
 
 -- ========================================
 -- FIRERATE / FIREMODES
@@ -75,11 +73,11 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 15
-SWEP.HipDispersion = 500
+SWEP.AccuracyMOA = 5
+SWEP.HipDispersion = 200
 SWEP.MoveDispersion = 150
 SWEP.SightsDispersion = 0
-SWEP.JumpDispersion = 300
+SWEP.JumpDispersion = 750
 
 -- ========================================
 -- SOUNDS
@@ -111,6 +109,7 @@ SWEP.ShootSpeedMult = 1
 SWEP.IronSightStruct = {
     Pos = Vector(-3, 0, 0.119),
     Ang = Angle(0.282, 0, 0),
+    Magnification = 1.5,
     Midpoint = {
         Pos = Vector(0, 15, -4),
         Ang = Angle(0, 0, -45),

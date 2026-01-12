@@ -30,8 +30,8 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 -- DAMAGE / BALLISTICS
 -- ========================================
-SWEP.Damage = 32
-SWEP.DamageMin = 18
+SWEP.Damage = 17
+SWEP.DamageMin = 8
 SWEP.Range = 55
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
@@ -46,14 +46,17 @@ SWEP.Primary.Ammo = "smg1"
 -- ========================================
 -- RECOIL
 -- ========================================
-SWEP.Recoil = 2
-SWEP.RecoilSide = 1
+SWEP.Recoil = 1
+SWEP.RecoilSide = 0.5
 SWEP.RecoilRise = 1
 SWEP.MaxRecoilBlowback = -1
-SWEP.VisualRecoilMult = 1.25
-SWEP.RecoilPunch = 1.5
-SWEP.RecoilPunchBackMax = 1
-SWEP.RecoilVMShake = 1
+SWEP.VisualRecoilMult = 1.15
+
+// those are animated by the viewmodel itself
+
+--SWEP.RecoilPunch = 0
+--SWEP.RecoilPunchBackMax = 0
+--SWEP.RecoilVMShake = 0
 
 -- ========================================
 -- FIRERATE / FIREMODES
@@ -72,10 +75,10 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 15
-SWEP.HipDispersion = 500
-SWEP.MoveDispersion = 150
-SWEP.SightsDispersion = 0
+SWEP.AccuracyMOA = 20
+SWEP.HipDispersion = 100
+SWEP.MoveDispersion = 200
+SWEP.SightsDispersion = 10
 SWEP.JumpDispersion = 300
 
 -- ========================================

@@ -51,9 +51,6 @@ SWEP.RecoilSide = 1
 SWEP.RecoilRise = 1.8
 SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 1.8
-SWEP.RecoilPunch = 2
-SWEP.RecoilPunchBackMax = 1
-SWEP.RecoilVMShake = 2
 
 -- ========================================
 -- FIRERATE / FIREMODES

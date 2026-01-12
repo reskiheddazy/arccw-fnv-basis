@@ -51,9 +51,6 @@ SWEP.RecoilSide = 1.9
 SWEP.RecoilRise = 1
 SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 1.25
-SWEP.RecoilPunch = 1.5
-SWEP.RecoilPunchBackMax = 1
-SWEP.RecoilVMShake = 1
 
 -- ========================================
 -- FIRERATE / FIREMODES
@@ -106,7 +103,7 @@ SWEP.ShootSpeedMult = 1
 -- IRON SIGHTS
 -- ========================================
 SWEP.IronSightStruct = {
-    Pos = Vector(-4.199, 0, 0.68),
+    Pos = Vector(-3.12, 0, 0.439),
     Ang = Angle(0, 0, 0),
     Midpoint = {
         Pos = Vector(0, 15, -4),
