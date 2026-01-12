@@ -30,9 +30,10 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 -- DAMAGE / BALLISTICS
 -- ========================================
-SWEP.Damage = 17
-SWEP.DamageMin = 8
-SWEP.Range = 55
+SWEP.Damage = 20
+SWEP.DamageMin = 10
+SWEP.Range = 60
+SWEP.RangeMin = 30 -- Damage falloff begins here.
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 
@@ -87,7 +88,7 @@ SWEP.Firemodes = {
 -- ========================================
 SWEP.AccuracyMOA = 20
 SWEP.HipDispersion = 100
-SWEP.MoveDispersion = 200
+SWEP.MoveDispersion = 100
 SWEP.SightsDispersion = 10
 SWEP.JumpDispersion = 300
 
@@ -119,7 +120,7 @@ SWEP.ShootSpeedMult = 1
 -- IRON SIGHTS
 -- ========================================
 SWEP.IronSightStruct = {
-    Pos = Vector(-3.56, 1, 0.319),
+    Pos = Vector(-3.56, 1, 0.5),
     Ang = Angle(0, 0, 0),
     Midpoint = {
         Pos = Vector(0, 15, -4),
