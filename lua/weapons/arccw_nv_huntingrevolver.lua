@@ -95,7 +95,7 @@ SWEP.ShootSoundSilenced = nil
 -- ========================================
 -- EFFECTS
 -- ========================================
-SWEP.MuzzleEffect = "muzzleflash_pistol_rbull"
+SWEP.MuzzleEffect = "muzzleflash_pistol_deagle"
 SWEP.MuzzleEffectAttachment = 1
 
 SWEP.ShellModel = nil
