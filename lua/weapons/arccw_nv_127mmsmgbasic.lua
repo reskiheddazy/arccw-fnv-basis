@@ -6,7 +6,7 @@ AddCSLuaFile()
 SWEP.Base = "arccw_base"
 SWEP.NeverPhysBullet = true
 SWEP.Spawnable = true
-SWEP.Category = "ArcCW - Fallout"
+SWEP.Category = "DivergeCW - SMGs"
 SWEP.PrintName = "12.7MM SMG"
 SWEP.Slot = 2
 

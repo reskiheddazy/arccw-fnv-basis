@@ -6,7 +6,7 @@ AddCSLuaFile()
 SWEP.Base = "arccw_base"
 SWEP.NeverPhysBullet = true
 SWEP.Spawnable = true
-SWEP.Category = "ArcCW - Fallout"
+SWEP.Category = "DivergeCW - Pistols"
 SWEP.PrintName = "22 Silenced Pistol"
 SWEP.Slot = 1
 

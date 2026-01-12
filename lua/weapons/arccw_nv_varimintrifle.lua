@@ -6,7 +6,7 @@ AddCSLuaFile()
 SWEP.Base = "arccw_base"
 SWEP.NeverPhysBullet = true
 SWEP.Spawnable = true
-SWEP.Category = "ArcCW - Fallout"
+SWEP.Category = "DivergeCW - Plink Rifles"
 SWEP.PrintName = "Varmint Rifle"
 SWEP.Slot = 2
 

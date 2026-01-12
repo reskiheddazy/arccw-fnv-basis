@@ -5,7 +5,7 @@ AddCSLuaFile()
 -- ========================================
 SWEP.Base = "arccw_base_nade"
 SWEP.Spawnable = true
-SWEP.Category = "ArcCW - Fallout"
+SWEP.Category = "DivergeCW - Grenades"
 SWEP.AdminOnly = false
 SWEP.PrintName = "Stun Grenade"
 SWEP.Slot = 4
