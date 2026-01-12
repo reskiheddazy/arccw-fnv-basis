@@ -140,9 +140,15 @@ SWEP.Animations = {
     },
     ["draw"] = {
         Source = "draw",
+        SoundTable = {
+            {s = "fnv/foley/rifle_out.wav", t = 0},
+        }
     },
     ["holster"] = {
         Source = "holster",
+        SoundTable = {
+            {s = "fnv/foley/rifle_in.wav", t = 0},
+        }
     },
     ["fire"] = {
         Source = "fire",
