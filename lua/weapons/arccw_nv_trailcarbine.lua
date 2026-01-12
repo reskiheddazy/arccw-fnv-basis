@@ -80,7 +80,7 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 15
+SWEP.AccuracyMOA = 5
 SWEP.HipDispersion = 500
 SWEP.MoveDispersion = 150
 SWEP.SightsDispersion = 0
@@ -114,8 +114,9 @@ SWEP.ShootSpeedMult = 1
 -- IRON SIGHTS
 -- ========================================
 SWEP.IronSightStruct = {
-    Pos = Vector(-2.56, 0, 1.411),
+    Pos = Vector(-2.56, -1.5, 1.411),
     Ang = Angle(0, 0, 0),
+        Magnification = 1.2,
     Midpoint = {
         Pos = Vector(0, 15, -4),
         Ang = Angle(0, 0, -45),

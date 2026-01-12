@@ -56,8 +56,8 @@ SWEP.Primary.Ammo = "SniperPenetratedRound"
 -- ========================================
 -- RECOIL
 -- ========================================
-SWEP.Recoil = 2.5
-SWEP.RecoilSide = 1
+SWEP.Recoil = 4.5
+SWEP.RecoilSide = 5
 SWEP.RecoilRise = 1.8
 SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 1.8
@@ -80,11 +80,11 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 15
-SWEP.HipDispersion = 500
-SWEP.MoveDispersion = 150
+SWEP.AccuracyMOA = 1
+SWEP.HipDispersion = 1500
+SWEP.MoveDispersion = 250
 SWEP.SightsDispersion = 0
-SWEP.JumpDispersion = 300
+SWEP.JumpDispersion = 500
 
 -- ========================================
 -- SOUNDS
@@ -190,22 +190,22 @@ SWEP.Animations = {
     },
     ["cycle"] = {
         Source = "cycle",
-        ShellEjectAt = 0.45,
+        ShellEjectAt = 0.60,
         SoundTable = {
-            {s = "fnv/amr/boltgrab.wav", t = 0.14},
-            {s = "fnv/amr/boltback.wav", t = 0.21},
-            {s = "fnv/amr/boltfwd.wav", t = 0.51},
-            {s = "fnv/amr/boltdown.wav", t = 0.61},
+            {s = "fnv/amr/boltgrab.wav", t = 0.25},
+            {s = "fnv/amr/boltback.wav", t = 0.39},
+            {s = "fnv/amr/boltfwd.wav", t = 0.75},
+            {s = "fnv/amr/boltdown.wav", t = 0.90},
         }
     },
     ["cycle_iron"] = {
         Source = "cycle_iron",
-        ShellEjectAt = 0.45,
+        ShellEjectAt = 0.60,
         SoundTable = {
-            {s = "fnv/amr/boltgrab.wav", t = 0.14},
-            {s = "fnv/amr/boltback.wav", t = 0.21},
-            {s = "fnv/amr/boltfwd.wav", t = 0.51},
-            {s = "fnv/amr/boltdown.wav", t = 0.61},
+            {s = "fnv/amr/boltgrab.wav", t = 0.25},
+            {s = "fnv/amr/boltback.wav", t = 0.39},
+            {s = "fnv/amr/boltfwd.wav", t = 0.75},
+            {s = "fnv/amr/boltdown.wav", t = 0.90},
         }
     },
 }
