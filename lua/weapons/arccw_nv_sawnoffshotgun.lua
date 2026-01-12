@@ -53,6 +53,7 @@ SWEP.BodyDamageMults = {
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 2
 SWEP.Primary.Ammo = "buckshot"
+SWEP.Num = 8
 
 -- ========================================
 -- RECOIL
@@ -86,16 +87,17 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 20
+SWEP.AccuracyMOA = 100
 SWEP.HipDispersion = 100
 SWEP.MoveDispersion = 100
 SWEP.SightsDispersion = 10
 SWEP.JumpDispersion = 300
+SWEP.ShotgunSpreadDispersion = true -- dispersion will cause pattern to increase instead of shifting
 
 -- ========================================
 -- SOUNDS
 -- ========================================
-SWEP.ShootSound = "^fnv/10mmpistol/fire.wav"
+SWEP.ShootSound = "^fnv/sawnoffshotgun/fire.wav"
 SWEP.ShootSoundSilenced = nil
 
 -- ========================================
@@ -120,8 +122,8 @@ SWEP.ShootSpeedMult = 1
 -- IRON SIGHTS
 -- ========================================
 SWEP.IronSightStruct = {
-    Pos = Vector(-3.56, 1, 0.5),
-    Ang = Angle(0, 0, 0),
+    Pos = Vector(-1.92, 0, 0.439),
+    Ang = Angle(0.915, 0, 0),
     Midpoint = {
         Pos = Vector(0, 15, -4),
         Ang = Angle(0, 0, -45),
@@ -160,20 +162,29 @@ SWEP.Animations = {
 
     ["fire"] = {
         Source = "fire",
-        ShellEjectAt = 0,
     },
     ["fire_iron"] = {
         Source = "fire_iron",
-        ShellEjectAt = 0,
     },
     ["reload"] = {
         Source = "reload",
         SoundTable = {
+            {s = "^fnv/sawnoffshotgun/open.wav", t = 0.35},
+            {s = "^weapons/arccw/casings/casing_12ga_1.wav", t = 1.35},
+            {s = "^fnv/sawnoffshotgun/shellhit.wav", t = 1.55},
+            {s = "^fnv/sawnoffshotgun/shellin.wav", t = 1.62},
+            {s = "^fnv/sawnoffshotgun/close.wav", t = 1.95},
         }
     },
     ["reload_empty"] = {
         Source = "reload_empty",
         SoundTable = {
+            {s = "^fnv/sawnoffshotgun/open.wav", t = 0.35},
+            {s = "^weapons/arccw/casings/casing_12ga_1.wav", t = 1.15},
+            {s = "^weapons/arccw/casings/casing_12ga_4.wav", t = 1.22},
+            {s = "^fnv/sawnoffshotgun/shellhit.wav", t = 1.55},
+            {s = "^fnv/sawnoffshotgun/shellin_double.wav", t = 1.62},
+            {s = "^fnv/sawnoffshotgun/close.wav", t = 1.95},
         }
     },
 }
