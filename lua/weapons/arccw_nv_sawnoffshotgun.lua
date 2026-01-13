@@ -30,9 +30,9 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 -- DAMAGE / BALLISTICS
 -- ========================================
-SWEP.Damage = 20
-SWEP.DamageMin = 10
-SWEP.Range = 60
+SWEP.Damage = 7    
+SWEP.DamageMin = 3  
+SWEP.Range = 100
 SWEP.RangeMin = 30 -- Damage falloff begins here.
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
@@ -73,11 +73,19 @@ SWEP.VisualRecoilMult = 1.15
 -- ========================================
 -- FIRERATE / FIREMODES
 -- ========================================
-SWEP.Delay = 60 / 400
+SWEP.Delay = 60 / 1500
 
 SWEP.Firemodes = {
     {
         Mode = 1,
+    },
+    {
+        PrintName = "BOTH",
+        Mode = -2,
+        RunawayBurst = true,
+        Override_ShotRecoilTable = {
+            [1] = 0.25
+        }
     },
     {
         Mode = 0,
