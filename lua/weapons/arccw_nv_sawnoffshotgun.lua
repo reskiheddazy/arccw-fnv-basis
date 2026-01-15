@@ -105,7 +105,7 @@ SWEP.ShotgunSpreadDispersion = true -- dispersion will cause pattern to increase
 -- ========================================
 -- SOUNDS
 -- ========================================
-SWEP.ShootSound = "^fnv/sawnoffshotgun/fire.wav"
+SWEP.ShootSound = "fnv/sawnoffshotgun/fire.wav"
 SWEP.ShootSoundSilenced = nil
 
 -- ========================================
