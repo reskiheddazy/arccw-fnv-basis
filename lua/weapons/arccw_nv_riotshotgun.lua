@@ -73,19 +73,11 @@ SWEP.VisualRecoilMult = 1.15
 -- ========================================
 -- FIRERATE / FIREMODES
 -- ========================================
-SWEP.Delay = 60 / 1500
+SWEP.Delay = 60 / 250
 
 SWEP.Firemodes = {
     {
         Mode = 1,
-    },
-    {
-        PrintName = "BOTH",
-        Mode = -2,
-        RunawayBurst = true,
-        Override_ShotRecoilTable = {
-            [1] = 0.25
-        }
     },
     {
         Mode = 0,
@@ -105,7 +97,7 @@ SWEP.ShotgunSpreadDispersion = true -- dispersion will cause pattern to increase
 -- ========================================
 -- SOUNDS
 -- ========================================
-SWEP.ShootSound = "^fnv/caravanshotgun/fire.wav"
+SWEP.ShootSound = "^fnv/riotshotgun/fire.wav"
 SWEP.ShootSoundSilenced = nil
 
 -- ========================================
