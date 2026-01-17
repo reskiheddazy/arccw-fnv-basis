@@ -6,14 +6,14 @@ AddCSLuaFile()
 SWEP.Base = "arccw_base"
 SWEP.NeverPhysBullet = true
 SWEP.Spawnable = true
-SWEP.Category = "DivergeCW - Rifles"
-SWEP.PrintName = "Service Rifle"
+SWEP.Category = "DivergeCW - Plink Rifles"
+SWEP.PrintName = "Varmint Rifle"
 SWEP.Slot = 2
 
 -- ========================================
 -- VIEWMODEL / WORLDMODEL
 -- ========================================
-SWEP.ViewModel = "models/fnvsweps/ar/fnv_servicerifle.mdl"
+SWEP.ViewModel = "models/fnvsweps/sn/fnv_amr.mdl"
 SWEP.ViewModelFOV = 90
 SWEP.WorldModel = "models/weapons/w_knife_ct.mdl"
 SWEP.MirrorVMWM = true
@@ -32,8 +32,7 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 SWEP.Damage = 26
 SWEP.DamageMin = 18
-SWEP.RangeMin = 60 -- Damage falloff begins here.
-SWEP.Range = 90
+SWEP.Range = 200
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 
@@ -51,14 +50,14 @@ SWEP.BodyDamageMults = {
 -- MAGAZINE / AMMO
 -- ========================================
 SWEP.ChamberSize = 1
-SWEP.Primary.ClipSize = 20
-SWEP.Primary.Ammo = "smg1"
+SWEP.Primary.ClipSize = 10
+SWEP.Primary.Ammo = "ar2"
 
 -- ========================================
 -- RECOIL
 -- ========================================
-SWEP.Recoil = 0.2
-SWEP.RecoilSide = 0.3
+SWEP.Recoil = 1.8
+SWEP.RecoilSide = 1
 SWEP.RecoilRise = 1
 SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 1.25
@@ -66,14 +65,12 @@ SWEP.VisualRecoilMult = 1.25
 -- ========================================
 -- FIRERATE / FIREMODES
 -- ========================================
-SWEP.Delay = 60 / 380
+SWEP.Delay = 60 / 650
 
 SWEP.Firemodes = {
     {
-        Mode = 2,
-    },
-    {
         Mode = 1,
+        PrintName = "Bolt Action"
     },
     {
         Mode = 0,
@@ -83,27 +80,27 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 5
-SWEP.HipDispersion = 200
+SWEP.AccuracyMOA = 15
+SWEP.HipDispersion = 500
 SWEP.MoveDispersion = 150
 SWEP.SightsDispersion = 0
-SWEP.JumpDispersion = 750
+SWEP.JumpDispersion = 300
 
 -- ========================================
 -- SOUNDS
 -- ========================================
-SWEP.ShootSound = "^fnv/servicerifle_redux/fire_fp.wav"
+SWEP.ShootSound = "^fnv/varmint/fire.wav"
 SWEP.ShootSoundSilenced = nil
 
 -- ========================================
 -- EFFECTS
 -- ========================================
-SWEP.MuzzleEffect = "muzzleflash_famas"
+SWEP.MuzzleEffect = "muzzleflash_pistol_deagle"
 SWEP.MuzzleEffectAttachment = 1
 
 SWEP.ShellModel = "models/shells/shell_556.mdl"
-SWEP.ShellPitch = 80
-SWEP.ShellScale = 1.2
+SWEP.ShellPitch = 100
+SWEP.ShellScale = 1
 SWEP.CaseEffectAttachment = 2
 
 -- ========================================
@@ -117,9 +114,8 @@ SWEP.ShootSpeedMult = 1
 -- IRON SIGHTS
 -- ========================================
 SWEP.IronSightStruct = {
-    Pos = Vector(-3, -2, 0.119),
-    Ang = Angle(0.282, 0, 0),
-    Magnification = 1.5,
+    Pos = Vector(-2.481, 0, 1.279),
+    Ang = Angle(0, 0, 0),
     Midpoint = {
         Pos = Vector(0, 15, -4),
         Ang = Angle(0, 0, -45),
@@ -129,12 +125,18 @@ SWEP.IronSightStruct = {
 -- ========================================
 -- HOLDTYPES
 -- ========================================
-SWEP.HoldtypeHolstered = "passive"
-SWEP.HoldtypeActive = "ar2"
-SWEP.HoldtypeSights = "rpg"
+SWEP.HoldtypeHolstered = "normal"
+SWEP.HoldtypeActive = "pistol"
+SWEP.HoldtypeSights = "revolver"
 
 SWEP.ActivePos = Vector(0, 0, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
+
+-- ========================================
+-- MANUAL ACTION
+-- ========================================
+SWEP.ManualAction = true
+SWEP.NoLastCycle = true
 
 -- ========================================
 -- ANIMATIONS
@@ -143,17 +145,8 @@ SWEP.Animations = {
     ["idle"] = {
         Source = "idle",
     },
-    ["idle_empty"] = {
-        Source = "idle_empty",
-    },
     ["draw"] = {
         Source = "draw",
-        SoundTable = {
-            {s = "fnv/foley/rifle_out.wav", t = 0},
-        }
-    },
-    ["draw_empty"] = {
-        Source = "draw_empty",
         SoundTable = {
             {s = "fnv/foley/rifle_out.wav", t = 0},
         }
@@ -164,43 +157,54 @@ SWEP.Animations = {
             {s = "fnv/foley/rifle_in.wav", t = 0},
         }
     },
-    ["holster_empty"] = {
-        Source = "holster_empty",
-        SoundTable = {
-            {s = "fnv/foley/rifle_in.wav", t = 0},
-        }
-    },
     ["fire"] = {
         Source = "fire",
-        ShellEjectAt = 0,
     },
     ["fire_iron"] = {
         Source = "fire_iron",
-        ShellEjectAt = 0,
     },
     ["fire_iron_empty"] = {
         Source = "fire_empty",
-        ShellEjectAt = 0,
-    },
-    ["fire_empty"] = {
-        Source = "fire_empty",
-        ShellEjectAt = 0,
     },
     ["reload"] = {
         Source = "reload",
         SoundTable = {
-            {s = "fnv/servicerifle_redux/magout.wav", t = 0.25},
-            {s = "fnv/servicerifle_redux/maghit.wav", t = 1.42},
-            {s = "fnv/servicerifle_redux/magin.wav", t = 1.58},
+            {s = "fnv/varmint/magout.wav", t = 0.25},
+            {s = "fnv/varmint/maghit.wav", t = 1.49},
+            {s = "fnv/varmint/magin.wav", t = 1.61},
         }
     },
     ["reload_empty"] = {
         Source = "reload_empty",
+        ShellEjectAt = 0.25,
         SoundTable = {
-            {s = "fnv/servicerifle_redux/magout.wav", t = 0.25},
-            {s = "fnv/servicerifle_redux/maghit.wav", t = 1.42},
-            {s = "fnv/servicerifle_redux/magin.wav", t = 1.58},
-            {s = "fnv/servicerifle_redux/bolt_press.wav", t = 1.90},
+            {s = "fnv/varmint/boltup.wav", t = 0.1},
+            {s = "fnv/varmint/boltback.wav", t = 0.19},
+            {s = "fnv/varmint/magout.wav", t = 0.95},
+            {s = "fnv/varmint/maghit.wav", t = 2.29},
+            {s = "fnv/varmint/magin.wav", t = 2.41},
+            {s = "fnv/varmint/boltfwd.wav", t = 3.05},
+            {s = "fnv/varmint/boltdown.wav", t = 3.15},
+        }
+    },
+    ["cycle"] = {
+        Source = "cycle",
+        ShellEjectAt = 0.20,
+        SoundTable = {
+            {s = "fnv/varmint/boltup.wav", t = 0.05},
+            {s = "fnv/varmint/boltback.wav", t = 0.15},
+            {s = "fnv/varmint/boltfwd.wav", t = 0.32},
+            {s = "fnv/varmint/boltdown.wav", t = 0.42},
+        }
+    },
+    ["cycle_iron"] = {
+        Source = "cycle_iron",
+        ShellEjectAt = 0.20,
+        SoundTable = {
+            {s = "fnv/varmint/boltup.wav", t = 0.05},
+            {s = "fnv/varmint/boltback.wav", t = 0.15},
+            {s = "fnv/varmint/boltfwd.wav", t = 0.32},
+            {s = "fnv/varmint/boltdown.wav", t = 0.42},
         }
     },
 }
