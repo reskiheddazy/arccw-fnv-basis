@@ -89,7 +89,7 @@ SWEP.JumpDispersion = 300
 -- ========================================
 -- SOUNDS
 -- ========================================
-SWEP.ShootSound = "^fnv/varmint/fire.wav"
+SWEP.ShootSound = "^fnv/varmint/fire_varmint_processed.wav"
 SWEP.ShootSoundSilenced = nil
 
 -- ========================================
