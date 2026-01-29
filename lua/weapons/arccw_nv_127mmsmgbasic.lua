@@ -100,6 +100,7 @@ SWEP.MuzzleEffectAttachment = 1
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
 SWEP.ShellPitch = 75
 SWEP.ShellScale = 1.25
+SWEP.ShellSounds = "weapons/arccw/casings/casing_556_1.wav"
 SWEP.CaseEffectAttachment = 2
 
 -- ========================================
