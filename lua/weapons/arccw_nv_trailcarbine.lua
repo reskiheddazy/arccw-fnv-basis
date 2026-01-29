@@ -102,6 +102,7 @@ SWEP.ShellModel = "models/shells/shell_9mm.mdl"
 SWEP.ShellPitch = 0.85
 SWEP.ShellScale = 1.25
 SWEP.CaseEffectAttachment = 2
+SWEP.ShellSounds = "weapons/arccw/casings/casing_556_1.wav"
 
 -- ========================================
 -- SPEED MULTIPLIERS
