@@ -106,10 +106,10 @@ SWEP.ShootSoundSilenced = nil
 SWEP.MuzzleEffect = "muzzleflash_shotgun"
 SWEP.MuzzleEffectAttachment = 1
 
-SWEP.ShellModel = nil
+SWEP.ShellModel = "models/shells/shell_12gauge.mdl"
 SWEP.ShellPitch = nil
 SWEP.ShellScale = nil
-SWEP.CaseEffectAttachment = nil
+SWEP.CaseEffectAttachment = 2
 
 -- ========================================
 -- SPEED MULTIPLIERS
@@ -162,9 +162,11 @@ SWEP.Animations = {
 
     ["fire"] = {
         Source = "fire",
+        ShellEjectAt = 0,
     },
     ["fire_iron"] = {
         Source = "fire_iron",
+        ShellEjectAt = 0,
     },
     ["reload"] = {
         Source = "reload",
