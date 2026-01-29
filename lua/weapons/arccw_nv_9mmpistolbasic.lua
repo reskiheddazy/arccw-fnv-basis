@@ -51,8 +51,8 @@ SWEP.BodyDamageMults = {
 -- MAGAZINE / AMMO
 -- ========================================
 SWEP.ChamberSize = 1
-SWEP.Primary.ClipSize = 12
-SWEP.Primary.Ammo = "smg1"
+SWEP.Primary.ClipSize = 15
+SWEP.Primary.Ammo = "pistol"
 
 -- ========================================
 -- RECOIL
@@ -105,8 +105,8 @@ SWEP.MuzzleEffect = "muzzleflash_pistol"
 SWEP.MuzzleEffectAttachment = 1
 
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
-SWEP.ShellPitch = 75
-SWEP.ShellScale = 1.25
+SWEP.ShellPitch = 100
+SWEP.ShellScale = 1
 SWEP.CaseEffectAttachment = 2
 
 -- ========================================
@@ -145,6 +145,9 @@ SWEP.Animations = {
     ["idle"] = {
         Source = "idle",
     },
+    ["idle_empty"] = {
+        Source = "idle_empty",
+    },
     ["reload"] = {
         Source = "reload",
         SoundTable = {
@@ -153,6 +156,56 @@ SWEP.Animations = {
             {s = "fnv/9mm/maghit.wav", t = 1.10},
             {s = "fnv/9mm/magin.wav", t = 1.19},
         }
+    },
+    ["reload_empty"] = {
+        Source = "reload_empty",
+        SoundTable = {
+            {s = "fnv/9mm/magrel.wav", t = 0.15},
+            {s = "fnv/9mm/magout.wav", t = 0.19},
+            {s = "fnv/9mm/maghit.wav", t = 1.10},
+            {s = "fnv/9mm/magin.wav", t = 1.19},
+            {s = "fnv/9mm/boltrel.wav", t = 1.75},
+        }
+    },
+    ["draw"] = {
+        Source = "draw",
+        SoundTable = {
+            {s = "fnv/foley/sidearm_out.wav", t = 0},
+        }
+    },
+    ["draw_empty"] = {
+        Source = "draw_empty",
+        SoundTable = {
+            {s = "fnv/foley/sidearm_out.wav", t = 0},
+        }
+    },
+    ["holster"] = {
+        Source = "holster",
+        SoundTable = {
+            {s = "fnv/foley/sidearm_in.wav", t = 0},
+        }
+    },
+    ["holster_empty"] = {
+        Source = "holster_empty",
+        SoundTable = {
+            {s = "fnv/foley/sidearm_in.wav", t = 0},
+        }
+    },
+    ["fire"] = {
+        Source = "fire",
+        ShellEjectAt = 0,
+    },
+    ["fire_iron"] = {
+        Source = "fire_iron",
+        ShellEjectAt = 0,
+    },
+    ["fire_iron_empty"] = {
+        Source = "fire_empty",
+        ShellEjectAt = 0,
+    },
+    ["fire_empty"] = {
+        Source = "fire_empty",
+        ShellEjectAt = 0,
     },
 }
 

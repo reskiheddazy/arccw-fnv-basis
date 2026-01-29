@@ -186,3 +186,18 @@ SWEP.Animations = {
         }
     },
 }
+
+
+
+SWEP.Attachments = {
+    {
+        PrintName = "Optic",
+        DefaultAttName = "None",
+        Slot = {"optic_large"},
+        Bone = "weapon",
+        Offset = {
+            vpos = Vector(0.05, -2.3, 2.5),
+            vang = Angle(90, 0, -90),
+        },
+    },
+}

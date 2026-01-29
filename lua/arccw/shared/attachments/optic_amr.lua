@@ -10,7 +10,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "bigoptic_compatible"
+att.Slot = "optic_large"
 
 att.Model = "models/fnvatts/scopes/fnv_att_amrscope.mdl"
 
@@ -29,7 +29,7 @@ att.AdditionalSights = {
 att.ScopeGlint = true
 
 att.Holosight = true
-att.HolosightReticle = Material("hud/scopes/rangefinder.png", "smooth")
+att.HolosightReticle = Material("vgui/huds/mildot.png", "smooth")
 att.HolosightNoFlare = true
 att.HolosightSize = 15
 att.HolosightBone = "holosight"

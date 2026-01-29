@@ -55,6 +55,62 @@ $sequence "idle" {
     snap
 }
 
+$sequence "idle_empty" {
+    "anims\idle_empty.dmx"
+    activity "ACT_VM_IDLE" 1
+    fps 30
+    snap
+}
+
+$sequence "fire_empty" {
+    "anims\fire_empty.dmx"
+    activity "ACT_VM_IDLE" 1
+    fps 30
+    snap
+}
+
+$sequence "fire_iron" {
+    "anims\fire_iron.dmx"
+    activity "ACT_VM_IDLE" 1
+    fps 30
+    snap
+}
+
+$sequence "fire" {
+    "anims\fire.dmx"
+    activity "ACT_VM_IDLE" 1
+    fps 30
+    snap
+}
+
+$sequence "holster" {
+    "anims\holster.dmx"
+    activity "ACT_VM_IDLE" 1
+    fps 30
+    snap
+}
+
+$sequence "draw" {
+    "anims\draw.dmx"
+    activity "ACT_VM_IDLE" 1
+    fps 30
+    snap
+}
+
+$sequence "holster_empty" {
+    "anims\holster_empty.dmx"
+    activity "ACT_VM_IDLE" 1
+    fps 30
+    snap
+}
+
+$sequence "draw_empty" {
+    "anims\draw_empty.dmx"
+    activity "ACT_VM_IDLE" 1
+    fps 30
+    snap
+}
+
 
 $sequence "reload" {
     "anims\reload.dmx"
@@ -63,6 +119,12 @@ $sequence "reload" {
     snap
 }
 
+$sequence "reload_empty" {
+    "anims\reload_empty.dmx"
+    activity "ACT_VM_RELOAD" 1
+    fps 30
+    snap
+}
 
 
 $attachment "1" "muzzle" 0.00 0.00 0.00 rotate -90 0 0
