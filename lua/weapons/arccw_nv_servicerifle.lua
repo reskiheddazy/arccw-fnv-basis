@@ -92,7 +92,7 @@ SWEP.JumpDispersion = 750
 -- ========================================
 -- SOUNDS
 -- ========================================
-SWEP.ShootSound = "^fnv/servicerifle_redux/fire_fp.wav"
+SWEP.ShootSound = "fnv/servicerifle_redux/fire_fp.wav"
 SWEP.ShootSoundSilenced = nil
 
 -- ========================================

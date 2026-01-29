@@ -105,7 +105,7 @@ SWEP.ShotgunSpreadDispersion = true -- dispersion will cause pattern to increase
 -- ========================================
 -- SOUNDS
 -- ========================================
-SWEP.ShootSound = "^fnv/caravanshotgun/fire_caravan_processed.wav"
+SWEP.ShootSound = "fnv_new_shoot/caravanshotgun/fire_caravanshotgun.wav"
 SWEP.ShootSoundSilenced = nil
 
 -- ========================================
@@ -177,21 +177,21 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         SoundTable = {
-            {s = "^fnv/caravanshotgun/open.wav", t = 0.05},
-            {s = "^fnv/caravanshotgun/shellhit.wav", t = 1},
-            {s = "^fnv/caravanshotgun/shellin.wav", t = 1.1},
-            {s = "^fnv/caravanshotgun/close.wav", t = 1.35},
+            {s = "fnv/caravanshotgun/open.wav", t = 0.05},
+            {s = "fnv/caravanshotgun/shellhit.wav", t = 1},
+            {s = "fnv/caravanshotgun/shellin.wav", t = 1.1},
+            {s = "fnv/caravanshotgun/close.wav", t = 1.35},
         }
     },
     ["reload_empty"] = {
         Source = "reload_empty",
         SoundTable = {
-            {s = "^fnv/caravanshotgun/open.wav", t = 0.05},
-            {s = "^fnv/caravanshotgun/shellhit.wav", t = 1.1},
-            {s = "^fnv/caravanshotgun/shellin.wav", t = 1.2},
-            {s = "^fnv/caravanshotgun/shellhit.wav", t = 1.6},
-            {s = "^fnv/caravanshotgun/shellin.wav", t = 1.7},
-            {s = "^fnv/caravanshotgun/close.wav", t = 2},
+            {s = "fnv/caravanshotgun/open.wav", t = 0.05},
+            {s = "fnv/caravanshotgun/shellhit.wav", t = 1.1},
+            {s = "fnv/caravanshotgun/shellin.wav", t = 1.2},
+            {s = "fnv/caravanshotgun/shellhit.wav", t = 1.6},
+            {s = "fnv/caravanshotgun/shellin.wav", t = 1.7},
+            {s = "fnv/caravanshotgun/close.wav", t = 2},
         }
     },
 }

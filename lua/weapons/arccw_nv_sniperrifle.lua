@@ -89,13 +89,13 @@ SWEP.JumpDispersion = 750
 -- ========================================
 -- SOUNDS
 -- ========================================
-SWEP.ShootSound = "^fnv/sniperrifle/fire.wav"
+SWEP.ShootSound = "fnv_new_shoot/huntingrifle/fire_hunting.wav"
 SWEP.ShootSoundSilenced = nil
 
 -- ========================================
 -- EFFECTS
 -- ========================================
-SWEP.MuzzleEffect = "muzzleflash_sr25"
+SWEP.MuzzleEffect = "muzzleflash_g3"
 SWEP.MuzzleEffectAttachment = 1
 
 SWEP.ShellModel = "models/shells/shell_556.mdl"

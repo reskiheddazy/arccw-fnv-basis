@@ -88,7 +88,7 @@ SWEP.JumpDispersion = 300
 -- ========================================
 -- SOUNDS
 -- ========================================
-SWEP.ShootSound = "^fnv/10mmsmg/fire_10smg_processed.wav"
+SWEP.ShootSound = "fnv_new_shoot/9mmsmg/fire_9mmsmg.wav"
 SWEP.ShootSoundSilenced = nil
 
 -- ========================================

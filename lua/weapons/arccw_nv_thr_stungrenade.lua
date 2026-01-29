@@ -68,15 +68,15 @@ SWEP.Animations = {
     ["pre_throw"] = {
         Source = "pre_throw_overhand",
         SoundTable = {
-            {s = "^fnv/throwables/pin_start.wav", t = 0.1},
-            {s = "^fnv/throwables/pin_end.wav", t = 0.25},
+            {s = "fnv/throwables/pin_start.wav", t = 0.1},
+            {s = "fnv/throwables/pin_end.wav", t = 0.25},
         },
     },
     ["throw"] = {
         Source = "throw_overhand",
         TPAnim = ACT_HL2MP_GESTURE_RANGE_ATTACK_GRENADE,
         SoundTable = {
-            {s = "^fnv/throwables/throw.wav", t = 0},
+            {s = "fnv/throwables/throw.wav", t = 0},
         },
     },
 }
