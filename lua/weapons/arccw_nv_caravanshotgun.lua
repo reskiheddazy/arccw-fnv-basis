@@ -175,6 +175,7 @@ SWEP.Animations = {
         SoundTable = {
             {s = "fnv/caravanshotgun/open.wav", t = 0.05},
             {s = "fnv/caravanshotgun/shellhit.wav", t = 1},
+            {s = "weapons/arccw/casings/casing_12ga_1.wav", t = 1.15},
             {s = "fnv/caravanshotgun/shellin.wav", t = 1.1},
             {s = "fnv/caravanshotgun/close.wav", t = 1.35},
         }
@@ -186,6 +187,8 @@ SWEP.Animations = {
             {s = "fnv/caravanshotgun/shellhit.wav", t = 1.1},
             {s = "fnv/caravanshotgun/shellin.wav", t = 1.2},
             {s = "fnv/caravanshotgun/shellhit.wav", t = 1.6},
+            {s = "weapons/arccw/casings/casing_12ga_1.wav", t = 1.15},
+            {s = "weapons/arccw/casings/casing_12ga_1.wav", t = 1.19},
             {s = "fnv/caravanshotgun/shellin.wav", t = 1.7},
             {s = "fnv/caravanshotgun/close.wav", t = 2},
         }
