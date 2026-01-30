@@ -158,7 +158,7 @@ SWEP.Animations = {
         SoundTable = {
             {s = "fnv/foley/rifle_out.wav", t = 0},
             {s = "fnv/servicerifle_redux/maghit.wav", t = 0.42},
-            {s = "fnv/servicerifle_redux/maghit.wav", t = 0.51},
+            {s = "fnv/servicerifle_redux/magin.wav", t = 0.58},
             {s = "fnv/foley/rifle_in.wav", t = 1.25},
         }
     },
