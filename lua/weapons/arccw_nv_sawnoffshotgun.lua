@@ -159,13 +159,20 @@ SWEP.Animations = {
         Source = "draw",
         SoundTable = {
             {s = "fnv/foley/sidearm_out.wav", t = 0},
-        }
+        },
+    },
+    ["ready"] = {
+        Source = "ready",
+        SoundTable = {
+            {s = "fnv/foley/sidearm_in.wav", t = 0},
+            {s = "fnv/sawnoffshotgun/close.wav", t = 0.25},
+        },
     },
     ["holster"] = {
         Source = "holster",
         SoundTable = {
             {s = "fnv/foley/sidearm_in.wav", t = 0},
-        }
+        },
     },
 
     ["fire"] = {
@@ -183,7 +190,7 @@ SWEP.Animations = {
             {s = "fnv/sawnoffshotgun/shellhit.wav", t = 1.55},
             {s = "fnv/sawnoffshotgun/shellin.wav", t = 1.62},
             {s = "fnv/sawnoffshotgun/close.wav", t = 1.95},
-        }
+        },
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -195,7 +202,7 @@ SWEP.Animations = {
             {s = "fnv/sawnoffshotgun/shellhit.wav", t = 1.55},
             {s = "fnv/sawnoffshotgun/shellin_double.wav", t = 1.62},
             {s = "fnv/sawnoffshotgun/close.wav", t = 1.95},
-        }
+        },
     },
 }
 
