@@ -159,10 +159,10 @@ SWEP.Animations = {
     ["ready"] = {
         Source = "ready",
         SoundTable = {
-            {s = "^fnv/foley/sidearm_out.wav", t = 0},
-            {s = "^fnv/10mmpistol/slidegrab.wav", t = 0.25},
-            {s = "^fnv/10mmpistol/pullback.wav", t = 0.25},
-            {s = "^fnv/10mmpistol/charge.wav", t = 0.38},
+            {s = "fnv/foley/sidearm_out.wav", t = 0},
+            {s = "fnv/10mmpistol/slidegrab.wav", t = 0.25},
+            {s = "fnv/10mmpistol/pullback.wav", t = 0.25},
+            {s = "fnv/10mmpistol/charge.wav", t = 0.38},
         }
     },
     ["draw_empty"] = {
