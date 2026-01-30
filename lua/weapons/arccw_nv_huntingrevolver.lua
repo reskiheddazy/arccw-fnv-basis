@@ -150,6 +150,14 @@ SWEP.Animations = {
             {s = "fnv/foley/sidearm_out.wav", t = 0},
         }
     },
+    ["ready"] = {
+        Source = "ready",
+        SoundTable = {
+            {s = "fnv/foley/sidearm_out.wav", t = 0},
+            {s = "fnv/huntingrev/cylclose.wav", t = 0.25},
+            {s = "fnv/foley/sidearm_in.wav", t = 0.55},
+        }
+    },
     ["holster"] = {
         Source = "holster",
         SoundTable = {

@@ -55,6 +55,14 @@ $sequence "idle" {
     snap
 }
 
+$sequence "ready" {
+    "anims\ready.dmx"
+    activity "ACT_VM_IDLE" 1
+    fps 30
+    snap
+}
+
+
 $sequence "fire" {
     "anims\fire.dmx"
     activity "ACT_VM_PRIMARYATTACK" 1
