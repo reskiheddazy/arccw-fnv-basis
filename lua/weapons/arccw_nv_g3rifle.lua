@@ -65,7 +65,7 @@ SWEP.VisualRecoilMult = 1.25
 -- ========================================
 -- FIRERATE / FIREMODES
 -- ========================================
-SWEP.Delay = 60 / 500
+SWEP.Delay = 60 / 525
 
 SWEP.Firemodes = {
     {

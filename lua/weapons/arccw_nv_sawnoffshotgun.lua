@@ -32,8 +32,7 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 SWEP.Damage = 7    
 SWEP.DamageMin = 3  
-SWEP.Range = 100
-SWEP.RangeMin = 30 -- Damage falloff begins here.
+SWEP.Range = 10
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 
@@ -53,7 +52,7 @@ SWEP.BodyDamageMults = {
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 2
 SWEP.Primary.Ammo = "buckshot"
-SWEP.Num = 8
+SWEP.Num = 18
 
 -- ========================================
 -- RECOIL
@@ -95,10 +94,10 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 100
+SWEP.AccuracyMOA = 250
 SWEP.HipDispersion = 100
 SWEP.MoveDispersion = 100
-SWEP.SightsDispersion = 10
+SWEP.SightsDispersion = 0
 SWEP.JumpDispersion = 300
 SWEP.ShotgunSpreadDispersion = true -- dispersion will cause pattern to increase instead of shifting
 

@@ -7,7 +7,7 @@ SWEP.Base = "arccw_base"
 SWEP.NeverPhysBullet = true
 SWEP.Spawnable = true
 SWEP.Category = "DivergeCW - DMRs"
-SWEP.PrintName = "Trail Rifle"
+SWEP.PrintName = "Trail Carbine"
 SWEP.Slot = 3
 
 -- ========================================
@@ -32,7 +32,7 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 SWEP.Damage = 48
 SWEP.DamageMin = 30
-SWEP.Range = 120
+SWEP.Range = 90
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 

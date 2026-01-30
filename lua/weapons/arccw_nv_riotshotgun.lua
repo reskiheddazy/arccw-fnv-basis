@@ -30,10 +30,9 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 -- DAMAGE / BALLISTICS
 -- ========================================
-SWEP.Damage = 7    
-SWEP.DamageMin = 3  
-SWEP.Range = 100
-SWEP.RangeMin = 30 -- Damage falloff begins here.
+SWEP.Damage = 18    
+SWEP.DamageMin = 5  
+SWEP.Range = 30
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 
