@@ -131,7 +131,7 @@ SWEP.HoldtypeHolstered = "passive"
 SWEP.HoldtypeActive = "ar2"
 SWEP.HoldtypeSights = "rpg"
 
-SWEP.ActivePos = Vector(0, 0, 0)
+SWEP.ActivePos = Vector(0, 0, -0.5)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 -- ========================================
@@ -197,7 +197,7 @@ SWEP.Attachments = {
         Slot = {"optic_large"},
         Bone = "weapon",
         Offset = {
-            vpos = Vector(0.05, -2.3, 2.5),
+            vpos = Vector(0.05, -2.25, 2.5),
             vang = Angle(90, 0, -90),
         },
     },

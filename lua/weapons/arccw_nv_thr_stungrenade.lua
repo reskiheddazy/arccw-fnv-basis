@@ -29,9 +29,9 @@ SWEP.CookAltFire = true
 -- ========================================
 SWEP.Throwing = true
 SWEP.NotForNPCs = true
-SWEP.PullPinTime = 0.85
+SWEP.PullPinTime = 0.63
 
-SWEP.MuzzleVelocity = 1500
+SWEP.MuzzleVelocity = 1000
 SWEP.ShootEntity = "arccw_fnv_stun" -- entity to fire
 
 -- ========================================

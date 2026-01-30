@@ -31,8 +31,8 @@ SWEP.DefaultBodygroups = "00000000"
 -- DAMAGE / BALLISTICS
 -- ========================================
 SWEP.Damage = 180
-SWEP.DamageMin = 120
-SWEP.Range = 350
+SWEP.DamageMin = 100
+SWEP.Range = 65
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 
@@ -80,8 +80,8 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 1
-SWEP.HipDispersion = 1500
+SWEP.AccuracyMOA = 0
+SWEP.HipDispersion = 2500
 SWEP.MoveDispersion = 250
 SWEP.SightsDispersion = 0
 SWEP.JumpDispersion = 500
@@ -107,8 +107,8 @@ SWEP.CaseEffectAttachment = 2
 -- ========================================
 -- SPEED MULTIPLIERS
 -- ========================================
-SWEP.SpeedMult = 0.9
-SWEP.SightedSpeedMult = 0.88
+SWEP.SpeedMult = 0.75
+SWEP.SightedSpeedMult = 0.45
 SWEP.ShootSpeedMult = 1
 
 -- ========================================

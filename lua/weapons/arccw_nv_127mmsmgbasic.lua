@@ -30,9 +30,9 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 -- DAMAGE / BALLISTICS
 -- ========================================
-SWEP.Damage = 30
+SWEP.Damage = 24
 SWEP.DamageMin = 16
-SWEP.Range = 45
+SWEP.Range = 30
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 
@@ -57,15 +57,15 @@ SWEP.Primary.Ammo = "ar2"
 -- RECOIL
 -- ========================================
 SWEP.Recoil = 1.25
-SWEP.RecoilSide = 1.9
-SWEP.RecoilRise = 1
+SWEP.RecoilSide = 1.2
+SWEP.RecoilRise = 1.25
 SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 1.25
 
 -- ========================================
 -- FIRERATE / FIREMODES
 -- ========================================
-SWEP.Delay = 60 / 580
+SWEP.Delay = 60 / 535
 
 SWEP.Firemodes = {
     {
@@ -79,8 +79,8 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 15
-SWEP.HipDispersion = 500
+SWEP.AccuracyMOA = 65
+SWEP.HipDispersion = 400
 SWEP.MoveDispersion = 150
 SWEP.SightsDispersion = 0
 SWEP.JumpDispersion = 300

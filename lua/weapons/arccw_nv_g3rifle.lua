@@ -30,10 +30,9 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 -- DAMAGE / BALLISTICS
 -- ========================================
-SWEP.Damage = 26
-SWEP.DamageMin = 18
-SWEP.RangeMin = 60 -- Damage falloff begins here.
-SWEP.Range = 90
+SWEP.Damage = 18
+SWEP.DamageMin = 15
+SWEP.Range = 50
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 
@@ -66,7 +65,7 @@ SWEP.VisualRecoilMult = 1.25
 -- ========================================
 -- FIRERATE / FIREMODES
 -- ========================================
-SWEP.Delay = 60 / 320
+SWEP.Delay = 60 / 500
 
 SWEP.Firemodes = {
     {
@@ -83,8 +82,8 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 5
-SWEP.HipDispersion = 200
+SWEP.AccuracyMOA = 20
+SWEP.HipDispersion = 560
 SWEP.MoveDispersion = 150
 SWEP.SightsDispersion = 0
 SWEP.JumpDispersion = 750

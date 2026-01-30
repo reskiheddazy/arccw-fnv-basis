@@ -30,9 +30,9 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 -- DAMAGE / BALLISTICS
 -- ========================================
-SWEP.Damage = 30
-SWEP.DamageMin = 16
-SWEP.Range = 45
+SWEP.Damage = 12
+SWEP.DamageMin = 5
+SWEP.Range = 10
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 
@@ -56,9 +56,9 @@ SWEP.Primary.Ammo = "smg"
 -- ========================================
 -- RECOIL
 -- ========================================
-SWEP.Recoil = 1.25
-SWEP.RecoilSide = 1.9
-SWEP.RecoilRise = 1
+SWEP.Recoil = 1
+SWEP.RecoilSide = 1.5
+SWEP.RecoilRise = 0.5
 SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 1.25
 
@@ -79,8 +79,8 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 15
-SWEP.HipDispersion = 500
+SWEP.AccuracyMOA = 50
+SWEP.HipDispersion = 200
 SWEP.MoveDispersion = 150
 SWEP.SightsDispersion = 0
 SWEP.JumpDispersion = 300
@@ -106,8 +106,8 @@ SWEP.CaseEffectAttachment = 2
 -- ========================================
 -- SPEED MULTIPLIERS
 -- ========================================
-SWEP.SpeedMult = 0.9
-SWEP.SightedSpeedMult = 0.88
+SWEP.SpeedMult = 0.85
+SWEP.SightedSpeedMult = 0.80
 SWEP.ShootSpeedMult = 1
 
 -- ========================================

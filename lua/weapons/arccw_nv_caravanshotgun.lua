@@ -30,10 +30,9 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 -- DAMAGE / BALLISTICS
 -- ========================================
-SWEP.Damage = 7    
-SWEP.DamageMin = 3  
-SWEP.Range = 100
-SWEP.RangeMin = 30 -- Damage falloff begins here.
+SWEP.Damage = 9   
+SWEP.DamageMin = 1  
+SWEP.Range = 15
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 
@@ -53,13 +52,13 @@ SWEP.BodyDamageMults = {
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 2
 SWEP.Primary.Ammo = "buckshot"
-SWEP.Num = 8
+SWEP.Num = 12
 
 -- ========================================
 -- RECOIL
 -- ========================================
-SWEP.Recoil = 1
-SWEP.RecoilSide = 0.5
+SWEP.Recoil = 2
+SWEP.RecoilSide = 1 
 SWEP.RecoilRise = 1
 SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 1.15
@@ -83,9 +82,6 @@ SWEP.Firemodes = {
         PrintName = "BOTH",
         Mode = -2,
         RunawayBurst = true,
-        Override_ShotRecoilTable = {
-            [1] = 0.25
-        }
     },
     {
         Mode = 0,
@@ -95,11 +91,11 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 100
+SWEP.AccuracyMOA = 50
 SWEP.HipDispersion = 100
 SWEP.MoveDispersion = 100
-SWEP.SightsDispersion = 10
-SWEP.JumpDispersion = 300
+SWEP.SightsDispersion = 0
+SWEP.JumpDispersion = 0
 SWEP.ShotgunSpreadDispersion = true -- dispersion will cause pattern to increase instead of shifting
 
 -- ========================================

@@ -30,10 +30,9 @@ SWEP.DefaultBodygroups = "00000000"
 -- ========================================
 -- DAMAGE / BALLISTICS
 -- ========================================
-SWEP.Damage = 26
-SWEP.DamageMin = 18
-SWEP.RangeMin = 60 -- Damage falloff begins here.
-SWEP.Range = 90
+SWEP.Damage = 20
+SWEP.DamageMin = 14
+SWEP.Range = 40
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 
@@ -52,7 +51,7 @@ SWEP.BodyDamageMults = {
 -- ========================================
 SWEP.ChamberSize = 1
 SWEP.Primary.ClipSize = 30
-SWEP.Primary.Ammo = "smg1"
+SWEP.Primary.Ammo = "ar2"
 
 -- ========================================
 -- RECOIL
@@ -66,7 +65,7 @@ SWEP.VisualRecoilMult = 1.25
 -- ========================================
 -- FIRERATE / FIREMODES
 -- ========================================
-SWEP.Delay = 60 / 550
+SWEP.Delay = 60 / 511
 
 SWEP.Firemodes = {
     {
@@ -83,11 +82,11 @@ SWEP.Firemodes = {
 -- ========================================
 -- ACCURACY / SPREAD
 -- ========================================
-SWEP.AccuracyMOA = 5
-SWEP.HipDispersion = 200
+SWEP.AccuracyMOA = 14
+SWEP.HipDispersion = 950
 SWEP.MoveDispersion = 150
-SWEP.SightsDispersion = 0
-SWEP.JumpDispersion = 750
+SWEP.SightsDispersion = 100
+SWEP.JumpDispersion = 400
 
 -- ========================================
 -- SOUNDS
@@ -113,8 +112,8 @@ SWEP.CaseEffectAttachment = 2
 -- ========================================
 -- SPEED MULTIPLIERS
 -- ========================================
-SWEP.SpeedMult = 0.9
-SWEP.SightedSpeedMult = 0.88
+SWEP.SpeedMult = 0.85
+SWEP.SightedSpeedMult = 0.80
 SWEP.ShootSpeedMult = 1
 
 -- ========================================
@@ -137,7 +136,7 @@ SWEP.HoldtypeHolstered = "passive"
 SWEP.HoldtypeActive = "ar2"
 SWEP.HoldtypeSights = "rpg"
 
-SWEP.ActivePos = Vector(0, -1, 0)
+SWEP.ActivePos = Vector(0, -1.5, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 -- ========================================

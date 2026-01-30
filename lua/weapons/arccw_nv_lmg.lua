@@ -52,7 +52,7 @@ SWEP.BodyDamageMults = {
 -- ========================================
 SWEP.ChamberSize = 1
 SWEP.Primary.ClipSize = 60
-SWEP.Primary.Ammo = "smg1"
+SWEP.Primary.Ammo = "ar2"
 
 -- ========================================
 -- RECOIL
