@@ -66,6 +66,27 @@ $sequence "idle_empty" {
     snap
 }
 
+$sequence "fire" {
+    "anims\fire.dmx"
+    activity "ACT_VM_IDLE" 1
+    fps 30
+    snap
+}
+
+$sequence "fire_iron" {
+    "anims\fire_iron.dmx"
+    activity "ACT_VM_IDLE" 1
+    fps 30
+    snap
+}
+
+$sequence "fire_empty" {
+    "anims\fire_empty.dmx"
+    activity "ACT_VM_IDLE" 1
+    fps 30
+    snap
+}
+
 $sequence "draw" {
     "anims\draw.dmx"
     activity "ACT_VM_DRAW" 1
