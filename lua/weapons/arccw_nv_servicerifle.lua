@@ -153,6 +153,15 @@ SWEP.Animations = {
             {s = "fnv/foley/rifle_out.wav", t = 0},
         }
     },
+    ["ready"] = {
+        Source = "ready",
+        SoundTable = {
+            {s = "fnv/foley/rifle_out.wav", t = 0},
+            {s = "fnv/servicerifle_redux/maghit.wav", t = 0.42},
+            {s = "fnv/servicerifle_redux/maghit.wav", t = 0.51},
+            {s = "fnv/foley/rifle_in.wav", t = 1.25},
+        }
+    },
     ["draw_empty"] = {
         Source = "draw_empty",
         SoundTable = {
