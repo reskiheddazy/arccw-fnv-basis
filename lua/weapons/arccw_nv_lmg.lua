@@ -144,6 +144,15 @@ SWEP.Animations = {
     ["idle"] = {
         Source = "idle",
     },
+    ["ready"] = {
+        Source = "ready",
+        SoundTable = {
+            {s = "fnv/foley/rifle_in.wav", t = 0},
+            {s = "fnv/lmg/boltclose.wav", t = 0.8},
+            {s = "fnv/lmg/boltopen.wav", t = 1},
+            {s = "fnv/foley/rifle_out.wav", t = 1.35},
+        }
+    },
     ["draw"] = {
         Source = "draw",
         SoundTable = {
@@ -183,7 +192,7 @@ SWEP.Animations = {
             {s = "fnv/lmg/maghit.wav", t = 1.95},
             {s = "fnv/lmg/magin.wav", t = 2.00},
             {s = "fnv/lmg/boltclose.wav", t = 2.48},
-            {s = "fnv/lmg/boltopen.wav", t = 2.58},
+            {s = "fnv/lmg/boltopen.wav", t = 2.68},
         }
     },
 }
