@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "fnv/22smg/22SMG"
+	"$nocull" 1
+}
