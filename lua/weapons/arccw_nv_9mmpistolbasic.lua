@@ -174,6 +174,14 @@ SWEP.Animations = {
             {s = "fnv/foley/sidearm_out.wav", t = 0},
         }
     },
+    ["ready"] = {
+        Source = "ready",
+        SoundTable = {
+            {s = "fnv/foley/sidearm_out.wav", t = 0},
+            {s = "fnv/9mm/boltback.wav", t = 0.35},
+            {s = "fnv/9mm/boltrel.wav", t = 0.55},
+        }
+    },
     ["draw_empty"] = {
         Source = "draw_empty",
         SoundTable = {
